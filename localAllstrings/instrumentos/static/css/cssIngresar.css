@@ -1,0 +1,83 @@
+/*MENÚ*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.caja2 {
+    background-color: #006494;
+    float: left;
+    width: 85%;
+    height: 115px; 
+}
+
+.banner img {
+
+    margin-left: 42%;
+    height: 115px;
+    background-color: #006494;
+  
+ }
+
+.cajamenu {
+
+    width: 10%;
+    height: 770px;
+    background-color: #006494;
+    
+
+}
+
+.menu a {
+    color: white;
+    margin: 0px;
+
+}
+
+.menu ul{
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.menu ul dl{
+    padding-left: 20px;
+    color: rgb(214, 246, 255);
+}
+
+.box{
+    padding-left: 10px;
+}
+#search {
+    padding-left: 5px;
+}
+
+
+.caja3 {
+    float: right;
+    width: 15%;
+    height: 115px;
+    background-color: #004d70;
+    padding: 10px;
+
+}
+
+.caja3 a{
+color: white;
+
+}
+/*CAJA LOGIN*/
+.cajalogin{
+    color: white;
+    padding-left: 100px;
+    padding-top: 50px;
+    background-color: #006494;
+    width: 400px;
+    height: 350px;
+    margin-left: 40%;
+    margin-top: -500px
+}
+
+
+
+
+
+    

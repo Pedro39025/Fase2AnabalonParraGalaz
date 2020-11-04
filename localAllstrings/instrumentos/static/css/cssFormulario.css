@@ -1,0 +1,167 @@
+/*MENÚ*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.caja2 {
+    background-color: #006494;
+    float: left;
+    width: 85%;
+    height: 115px; 
+}
+
+.banner img {
+
+    margin-left: 42%;
+    height: 115px;
+    background-color: #006494;
+  
+ }
+
+.cajamenu {
+    padding-top: 115px;
+    width: 10%;
+    height: 1000px;
+    background-color: #006494;
+    
+
+}
+
+.menu a {
+    color: white;
+    margin: 0px;
+
+}
+
+.menu ul{
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.menu ul dl{
+    padding-left: 20px;
+    color: rgb(214, 246, 255);
+}
+
+.box{
+    padding-left: 10px;
+}
+#search {
+    padding-left: 5px;
+}
+
+
+.caja3 {
+    float: right;
+    width: 15%;
+    height: 115px;
+    background-color: #004d70;
+    
+    padding: 10px;
+
+}
+
+.caja3 a{
+color: white;
+
+}
+/*ESTILOS FORMULARIO*/
+.titulofor{
+    color:white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: 50px;
+}
+.nom{
+    color:white;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: 30px;
+}
+.ape{
+    color:white;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.reg{
+    color:white;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.dir{
+    color:white;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.tel{
+    color:white;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.cor{
+    color:white;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: 30px;
+}
+/* PAGINA DE GUITARRAS */
+
+.portada1{
+    width: 1000px;
+    height: 450px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+
+}
+.tituloGuitarra{
+    color:black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: 70px;
+}
+.card1gui{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-color: #000000;
+    border-style: solid;
+    text-align: center;
+}
+
+.cajaformu {
+    padding-left: 20px;
+    background-color: #006494;
+    width: 50%;
+    height: 600px;
+    margin-left: 27%;
+    margin-top: -800px;
+}
+
+
+.datos {
+    background-color: #004d70;
+    float: right;
+    width: 100%;
+    height: 200px;
+    color: aliceblue;
+    margin-top: 100px;
+    padding-left: 200px;
+    }
+ 
+
+

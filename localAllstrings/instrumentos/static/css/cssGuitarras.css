@@ -1,0 +1,203 @@
+/*MENÚ*/
+*{
+    margin: 0;
+    padding: 0;
+ }
+ .caja2 {
+    background-color: #006494;
+    float: left;
+    width: 85%;
+    height: 115px; 
+ }
+ 
+ .banner img {
+
+    margin-left: 42%;
+    height: 115px;
+    background-color: #006494;
+  
+ }
+ 
+ .cajamenu {
+    padding-top: 115px;
+    width: 10%;
+    height: 1750px;
+    background-color: #006494;
+    
+ 
+ }
+ 
+ .menu a {
+    color: white;
+    margin: 0px;
+ 
+ }
+ 
+ .menu ul{
+    padding-left: 5px;
+    margin-top: 5px;
+ }
+ 
+ .menu ul dl{
+    padding-left: 20px;
+    color: rgb(214, 246, 255);
+ }
+ 
+ .box{
+    padding-left: 10px;
+ }
+ #search {
+    padding-left: 5px;
+ }
+ 
+ 
+ .caja3 {
+    float: right;
+    width: 15%;
+    height: 115px;
+    background-color: #004d70;
+    
+    padding: 10px;
+ 
+ }
+ 
+ .caja3 a
+ {
+     color:white;
+
+
+ }
+
+ .card1gui{
+    margin-top: 15px;
+    border-color: #000000;
+    border-style: solid;
+    text-align: center;
+ }
+ 
+ .card-body{
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+ }
+ 
+ #h1
+ { text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: 70px;
+    color: black;
+ }
+/*CSS CONTENIDO PAGINA PRINCIPAL/INICIO*/
+/*ESTILOS CARRUSEL*/
+
+.carrusel{
+    height: 670px;
+}
+.tituloca{
+    color: black;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+}
+.parrafoca{
+    color: black;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+}
+.imagen1 img{
+    height: 600px;
+    padding: 20px;
+}
+.imagen2 img{
+    height: 600px;
+    padding: 20px;
+}
+.imagen3 img{
+    height: 600px;
+    padding: 20px;
+}
+
+/*ESTILOS TARJETAS*/
+.card-body{
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+}
+.titulo1{
+    color:black;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    text-align: center;
+    font-size: 450%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ltd img{
+    height: 200px;
+}
+.ibanez img{
+    height: 200px;
+}
+.ludwing img{
+    height: 200px;
+}
+.palos img{
+    height: 200px;
+}
+.card1{
+    border-color: #000000;
+    border-style: solid;
+    text-align: center;
+}
+.card2{
+    border-color: #000000;
+    border-style: solid;
+    text-align: center;
+}
+.card3{
+    border-color: #000000;
+    border-style: solid;
+    text-align: center;
+}
+.card4{
+    border-color: #000000;
+    border-style: solid;
+    text-align: center;
+}
+/* PAGINA DE GUITARRAS */
+
+.portada1{
+
+    width: 1000px;
+    height: 300px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+
+
+}
+.tituloGuitarra{
+    color:black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: 70px;
+}
+.card1gui{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-color: #000000;
+    border-style: solid;
+    text-align: center;
+}
+
+.cajaguitarras {
+    margin-top: -1750px;
+    margin-left: 100px;
+}
+
+.datos {
+    background-color: #004d70;
+    float: right;
+    width: 100%;
+    height: 200px;
+    color: aliceblue;
+    margin-top: 0;
+    }
