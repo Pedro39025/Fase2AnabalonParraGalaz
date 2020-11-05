@@ -97,4 +97,3 @@ class InstrumentoDetailView(generic.DetailView):
 class InstrumentoListView(generic.ListView):   
      model = Instrumento
      paginate_by = 20
- 
