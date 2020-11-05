@@ -1,0 +1,16 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<div class="insform">
+<form action="" method="post">
+    {% csrf_token %}
+    <table>
+    {{ from.as_table }}
+    </table>
+    <input type="submit" value="submit"/>
+
+</form>
+</div>
+{% endblock %}
+
+

@@ -28,7 +28,6 @@
 </head>
 <!--MENÚ-->
 <body background="{% static 'imagenes/Inicio/FONDO.jpeg' %}">
-
     <div class="caja2">
         <div class="banner">
             <a href="{% url 'index' %}">
@@ -44,14 +43,6 @@
     <div class="cajamenu">
         <div class="menu">
             <br>
-            <a>
-                <div class="box">
-                    <div class="container-1">
-                        <span class="icon"><i class="fa fa-search"></i></span>
-                        <input type="search" id="search" placeholder="Buscar" size="12" />
-                    </div>
-                </div>            
-            </a>
             <ul>
                 <a href="{% url 'Guitarras' %}">Guitarras</a>
                 <ul>
@@ -60,7 +51,7 @@
                     <dl><a href="#" class="sub">Electroacústicas</a></dl>
                 </ul>
                 <hr>
-                <a href="{% url 'Bajos' %}">Bajos</a>
+                <a href="#">Bajos</a>
                 <ul>
                     <dl><a href="#" class="sub">Acústico</a></dl>
                     <dl><a href="#" class="sub">Eléctrico</a></dl>
@@ -85,14 +76,14 @@
             </ul>
         </div>
     </div>
-       
+
     {% block content %}{% endblock %}    
   <!--FOOTER-->
     <footer>
         <div class="datos">
             <div class="container text-center text-md-left">
                 <div class="row">
-                    <div class="col-md-3 mx-auto">
+                    <div class="col-md-2 mx-auto">
                         <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contacto</h5>
                         <ul class="list-unstyled">
                             <li>
@@ -104,17 +95,17 @@
                         </ul>
                     </div>
                     <hr class="clearfix w-100 d-md-none">
-                    <div class="col-md-3 mx-auto">
+                    <div class="col-md-2 mx-auto">
                         <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Redes Sociales</h5>
                         <ul class="list-unstyled">
                         <li>
-                            Facebook
+                            Facebook.
                         </li>
                         <li>
-                            Twitter
+                            Twitter.
                         </li>
                         <li>
-                            Instagram
+                            Instagram.
                         </li>
                         </ul>
                     </div>
@@ -123,16 +114,25 @@
                         <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Información</h5>
                         <ul class="list-unstyled">
                         <p>
-                            Somos una tienda dedicada a productos musicales de todo tipo, ya sean instrumentos, accesiorios, componentes, entre otros
+                            Somos una tienda dedicada a productos musicales de todo tipo, ya sean instrumentos, accesiorios, componentes, entre otros.
                         </p>
                         </ul>
                     </div>
                     <hr class="clearfix w-100 d-md-none">
-                        <div class="col-md-3 mx-auto">
+                        <div class="col-md-2 mx-auto">
                             <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Ubicación</h5>
                             <ul class="list-unstyled">
                             <li>
-                                Canada #3574 Maipú
+                                Canada #3574 Maipú.
+                            </li>
+                        </ul>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none"> 
+                    <div class="col-md-2 mx-auto">
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Sugerencias</h5>
+                        <ul  class="list-unstyled">
+                            <li>
+                                ¡Dejanos tus sugerencias acá! Ya sea articulos o mejoras en la pagina, <a href="#" class="item">click aquí.</a>
                             </li>
                         </ul>
                     </div>

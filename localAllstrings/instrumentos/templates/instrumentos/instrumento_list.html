@@ -1,0 +1,23 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1 class="page-section-heading text-uppercase text-secondary mb-0">Lista de Instrumentos: </h1>
+<br>
+
+{% if instrumento_list %}
+<ul>
+
+    {% for instrumento in instrumento_list %}
+    <li>
+        <a style="font-size: 30px ;" style="color: #5FB8BD;" href="{{ instrumento.get_abosulte_url }}" > {{ instrumento.nombre}} </a>
+        <a style="font-size: 30px;"> Descripción Instrumentos: </a><a style="font-size: 30px ;" style="color:red;">({{instrumento.descripcion}})</a>   
+    </li>
+    {% endfor %}
+
+</ul>
+{% else %}
+    <p>No hay sugerencias.</p>
+{% endif %}
+
+
+{% endblock %}

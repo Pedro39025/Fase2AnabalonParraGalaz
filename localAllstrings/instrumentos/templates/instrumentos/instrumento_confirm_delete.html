@@ -1,0 +1,23 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+
+{% load static %}
+<link href="{% static 'css/cssInicio.css' %}" type="text/css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="{% static 'css/cssBajos.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/cssCompra.css' %}">
+<link href="{% static 'css/cssFormulario.css' %}" type="text/css" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="{% static 'css/cssGuitarras.css' %}">
+<link href="{% static 'css/cssRegistrar.css' %}" type="text/css" rel="stylesheet"> 
+<link href="{% static 'css/cssIngresar.css' %}" type="text/css" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="{% static 'css/cssPrecios.css' %}">
+<div class="insdelete">
+<h1>Eliminar Instrumento</h1>
+<p>¿Estas seguro de querer eliminar esta sugerencia {{Instrumento.nombre}}?</p>
+
+<form action="" method="POST">
+    {% csrf_token %}
+    <input type="submit" action="" value="Si, quiero eliminarlo">
+</form>
+</div>
+{% endblock %}

@@ -75,4 +75,26 @@ def Formulario(request):
     )                          
 
 # CRUD.
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
+from django.urls import reverse_lazy
+from django.views import generic
 
+class InstrumentoCreate(CreateView):
+    model = Instrumento
+    fields = ['id', 'nombre', 'descripcion']
+
+class InstrumentoUpdate(UpdateView):
+    model = Instrumento
+    fields = ['id','nombre', 'descripcion']
+
+class InstrumentoDelete(DeleteView):
+    model = Instrumento
+    success_url = reverse_lazy('index')
+
+class InstrumentoDetailView(generic.DetailView):
+    model = Instrumento
+ 
+class InstrumentoListView(generic.ListView):   
+     model = Instrumento
+     paginate_by = 20
+ 
