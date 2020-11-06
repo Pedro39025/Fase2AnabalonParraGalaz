@@ -4,25 +4,38 @@
 
 {% block content %}
 {% load static %}
+<br>
+<br>
 <div class="container">
-<h1>Instrumento Agregado :  </h1>
+<h1 style="color: black;">SUGERENCIA AGREGADA:  </h1>
 </div>
-
+<br>
+<br>
 <div class="container d-flex flex-column"> 
-    <h1  class="page-section-heading text-uppercase text-secondary mb-0" >Instrumento: [{{Instrumento.nombre}}]</h1>
-    <h2 class="page-section-heading text-uppercase text-secondary mb-0">ID Instrumento: ({{Instrumento.id}})</h2>
+    <h1  style="color: black;"> Sugerencia: {{instrumento.nombre}}</h1>
+    <h2 style="color: black;">  Descripcion : {{instrumento.descripcion}}</h2>
+    <br>
+    <br>
+    <br>
         <a class="btn btn-primary" href="{% url 'instrumento_update' pk=instrumento.pk %}">Editar    <span class="glyphicon glyphicon-pencil"></span></a>
+        <br>
+        <br>
         <a class="btn btn-primary" href="{% url 'instrumento_delete' pk=instrumento.pk %}">Eliminar   <span class="glyphicon glyphicon-trash"></span></a>
-    {% else %}{% endif %}{% else %}{% endif %}        
-
-
-    <div class="col-md-8" style="margin-top: 5%;">
-        <br>
-        <p class="texto">{{Instrumento.descripcion}}</p>
-        <br>
-    </div>
 </div>
 </header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 {% endblock %}
 

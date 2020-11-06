@@ -1,193 +1,118 @@
-
-*{
-    margin: 0;
-    padding: 0;
-}
-.caja2 {
-    background-color: #006494;
-    float: left;
-    width: 85%;
-    height: 115px; 
-}
-
-.banner img {
-
-    margin-left: 42%;
-    height: 115px;
-    background-color: #006494;
-  
- }
-
-.cajamenu {
-    padding-top: 115px;
-    width: 10%;
-    height: 1500px;
-    background-color: #006494;
-    
-
-}
-
-.menu a {
-    color: white;
-    margin: 0px;
-
-}
-
-.menu ul{
-    padding-left: 5px;
-    margin-top: 5px;
-}
-
-.menu ul dl{
-    padding-left: 20px;
-    color: rgb(214, 246, 255);
-}
-
-.box{
-    padding-left: 10px;
-}
-#search {
-    padding-left: 5px;
-}
-
-
-.caja3 {
-    float: right;
-    width: 15%;
-    height: 115px;
-    background-color: #004d70;
-    
-    padding: 10px;
-
-}
-
-.caja3 a{
-color: white;
-
-}
 /*CSS CONTENIDO PAGINA PRINCIPAL/INICIO*/
 /*ESTILOS CARRUSEL*/
+
 .carrusel{
-margin-left: 100px;
-height: 550px;
-}
+    height: 550px;
+    margin-top: 50px;
+    }
+
 .tituloca{
 color: black;
 text-shadow: 2px 2px 5px rgb(255, 255, 255);
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 300%;
-}
+    }
+
 .parrafoca{
 color: black;
 text-shadow: 2px 2px 5px rgb(255, 255, 255);
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 200%;
-}
-.imagen1 img{
-height: 500px;
-padding: 20px;
-}
-.imagen2 img{
-height: 500px;
-padding: 20px;
-}
-.imagen3 img{
-height: 500px;
-padding: 20px;
-}
-/*ESTILOS TARJETAS*/
-.card-body{
-background-color: rgb(255, 255, 255);
-height: 300px;
-}
-.titulo1{
-margin-left: -300px;
-color:black;
-text-shadow: 2px 2px 5px rgb(0, 0, 0);
-text-align: center;
-font-size: 450%;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.ltd img{
-height: 200px;
-}
-.ibanez img{
-height: 200px;
-}
-.ludwing img{
-height: 200px;
-}
-.palos img{
-height: 200px;
-}
-.card1{
-border-color: #000000;
-border-style: solid;
-text-align: center;
-}
-.card2{
-border-color: #000000;
-border-style: solid;
-text-align: center;
-}
-.card3{
-border-color: #000000;
-border-style: solid;
-text-align: center;
-}
-.card4{
-border-color: #000000;
-border-style: solid;
-text-align: center;
-}
-
-.info {
-background-color: brown;
-margin-top: 115px;
-margin-left: 150px;
-height:  500px;
-width: 500px;
-}
-.container {
-margin: 0;
-}
-
-.caja5{
-width: 90%;
-height: 715px;
-margin-top: -1385px;
-margin-left: 350px;
-
-}
-
-.caja4 {
-padding-left: 115px;
-}
-
-footer{
-    width: 100%;
-    background-color:#004d70 ;
-    color: azure;
-  
-}
-
-.container-footer-all{
-    width: 100%;
-    max-width: 100%;
-
-}
-
-.container-body{
-    display: flex;
-    float: inline-end;
-}
-
-@media screen and (max-width: 1080px){
-    .container-body{
-        flex-wrap: wrap;
-
     }
-}
- 
-
-
+    
+    .imagen1 img{
+    height: 500px;
+    padding: 20px;
+    }
+    .imagen2 img{
+    height: 500px;
+    padding: 20px;
+    }
+    .imagen3 img{
+    height: 500px;
+    padding: 20px;
+    }
+    /*ESTILOS TARJETAS*/
+    .card-body{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    
+    margin:0;
+    }
+    .titulo1{
+    margin-left: 0px;
+    color:black;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    text-align: center;
+    font-size: 450%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .ltd img{
+    height: 200px;
+    
+    }
+    .ibanez img{
+    height: 200px;
+    
+    }
+    .ludwing img{
+    height: 200px;
+    
+    }
+    .palos img{
+    height: 200px;
+    
+    }
+    .card1{
+        margin-top: 10px;
+        border-color: #00000063;
+        border-style: solid;
+        text-align: center;
+    
+    }
+    .card2{
+        margin-top: 10px;
+        border-color: #00000063;
+        border-style: solid;
+        text-align: center;
+    }
+    .card3{
+        margin-top: 10px;
+        border-color: #00000063;
+        border-style: solid;
+        text-align: center;
+    }
+    .card4{
+        margin-top: 10px;
+        border-color: #00000063;
+        border-style: solid;
+        text-align: center;
+    }
+    
+    .info {
+    background-color: brown;
+    margin-top: 115px;
+    margin-left: 150px;
+    height:  500px;
+    width: 500px;
+    }
+    .container {
+    width: 100%;
+    }
+    
+    
+    
+    .caja4{
+        width: 100%;
+        margin: auto;
+    }
+    
+    
+    @media screen and (max-width: 768px){
+        .caja4{
+            width: 400px;
+            margin: auto;
+        }
+        
+    }
+    

@@ -2,14 +2,72 @@
 
 {% block content %}
 
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   
   {% load static %}
-  <link href="{% static 'css/cssFormulario.css' %}" type="text/css" rel="stylesheet"> 
+  <!--ESTILOS-->
+  <style>
+
+
+    input {
+       
+        width: 200px;
+        margin-bottom: 10px;
+    }
+
+    label {
+        clear: both;
+        width: 180px;
+    }
+
+    button {
+        clear: both;
+        width: 100px;
+        margin-left: 50px;
+    }
+
+    .error-control {
+        border: 1px solid white;
+    }
+
+    label.error {
+        color: white;
+        width: 300px;
+        font-size: 0.8em;
+        margin-top: -5px;
+        margin-bottom: 10px;
+    }
+
+    .menu a {
+    color: white;
+    margin: 0px;
+    }
+
+    .cajaformu{
+       background-color:  #006a9b;
+       margin: auto;
+       padding: 50;
+       
+       width: 50%;
+       margin-top: 50px;
+
+   
+      
+        
+        
+    }
+
+    @media screen and (max-width: 768px){
+        .cajaformu{
+            margin-left: 5%;
+            height: 800px;
+        }
+        
+    }
+    
+
+  </style>
+  
   <script type="text/Javascript">
     function validacion()
     {
@@ -102,7 +160,12 @@
         <input type="submit" value="COMPRAR">
         
     </form>
-</div>   
-</body>
-</html>
+
+</div> 
+<br>
+<br>
+<br>
+<br><br><br><br>
+
+
 {% endblock %}

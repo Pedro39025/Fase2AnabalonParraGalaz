@@ -1,16 +1,17 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-<h1 class="page-section-heading text-uppercase text-secondary mb-0">Lista de Instrumentos: </h1>
 <br>
-
+ <h1 style="color: black;">LISTA DE SUGERENCIAS: </h1>
+<br>
+<div style="background-color: white; padding: 5px; border-style: solid; ">
 {% if instrumento_list %}
 <ul>
 
     {% for instrumento in instrumento_list %}
     <li>
-        <a style="font-size: 30px ;" style="color: #5FB8BD;" href="{{ instrumento.get_abosulte_url }}" > {{ instrumento.nombre}} </a>
-        <a style="font-size: 30px;"> Descripción Instrumentos: </a><a style="font-size: 30px ;" style="color:red;">({{instrumento.descripcion}})</a>   
+        <a style="font-size: 25px ;"  href="{{ instrumento.get_absolute_url }}" > {{ instrumento.nombre}} </a>
+        <strong><a style="font-size: 20px;"> / Descripción Instrumentos: </a> </strong> <a style="font-size: 20px ; color: black;"> {{instrumento.descripcion}}</a>
     </li>
     {% endfor %}
 
@@ -18,6 +19,15 @@
 {% else %}
     <p>No hay sugerencias.</p>
 {% endif %}
-
-
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 {% endblock %}

@@ -2,16 +2,101 @@
 
 {% block content %}
 
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 {% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/cssCompra.css' %}">
-</head>
-<body>
+
+<style>
+    
+.tituloCompra{
+    color:black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: 48px;
+}
+.precio{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 40px;
+}
+/*IMAGEN*/
+.cajaimg img{
+    height: 500px;
+    border:solid;
+    margin-left: -210px;
+    margin-bottom: 10px;
+}
+/*INFORMACION PRODUCTO Y BOTON COMPRAR*/ 
+.botoncompra{
+    margin-left: 100px;
+    padding: 20px 40px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    border: solid;
+    border-color: black;
+    color: white;
+}
+.infogui{
+    color:black;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.infogui2{
+    color:black;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.info{
+    text-align: left;
+}
+
+.cajainfo{
+    width: 1100px;
+    height: 700px;
+    border: solid;
+    background-color: white;
+    margin-left: 200px;
+    margin-bottom: 300px;
+}
+
+ /*ESTILOS CAJA COMPRAS*/
+ .card1gui{
+    margin-top: 15px;
+    border-color: #000000;
+    border-style: solid;
+    text-align: center;
+ }
+ 
+ .card-body{
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+ }
+ 
+ #h1
+ { text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: 70px;
+    color: black;
+ }
+ 
+
+.comprar{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.comprar a
+{
+   color: white;
+}
+
+
+
+
+</style>
 <!--CAJA COMPRAR-->
 <div class="comprar">
     <h1 class="tituloCompra">GUITARRA ELÉCTRICA G&L FULLERTON DELUXE ASAT BLUESBOY</h1>
@@ -41,6 +126,5 @@
                     <p>PUENTE: Traditional boxed-steel bridge with individual brass saddles</p>
     </div >
 </div>
-</body>
-</html>
+
 {% endblock %}

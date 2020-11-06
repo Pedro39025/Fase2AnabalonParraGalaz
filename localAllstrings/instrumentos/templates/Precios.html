@@ -2,8 +2,7 @@
 
 {% block content %}
 
-<!doctype html>
-<html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,15 +11,70 @@
   <link rel="stylesheet" type="text/css" href="{% static 'css/cssPrecios.css' %}">
 
   <style>
-    .menu a {
-    color: white;
-    margin: 0px;
-    }
+      .titulo1{
+    color:white;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
+}
+.titulo2{
+    color:white;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
+}
+.titulo3{
+    color:white;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
+}
+.titulo4{
+    color:white;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
+}
+.titulo5{
+    color:white;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
+} 
+/*BOTONES Y DATOS*/
+.label{
+    color:white;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.boton{
 
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #4CAF50;
+    border: solid;
+    border-color: #4CAF50;
+    color: black;
+}
+.botoncont{
+    padding: 20px 40px;
+    font-size: 15px;
+    background-color: #4CAF50;
+    border: solid;
+    border-color: #4CAF50;
+    color: black;
+    margin-left: 110px;
+}
 
-    .caja3 a{
-    color: white;
-    }
+.cajas{
+    background-color: #004d70;
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+
+}
 </style>
 <script type="text/JavaScript">
                                         /*VALIDACION PRECIOS*/
@@ -107,7 +161,9 @@
     <form>
      <a href="{% url 'Formulario' %}" class="botoncont" type="button" onclick="alert('Seras redirigido al formulario de compra')">CONTINUAR </a>
     </form>
+
 </div>
+<br><br><br>
 </body>
-</html>
+
 {% endblock %}

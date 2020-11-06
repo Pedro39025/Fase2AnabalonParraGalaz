@@ -3,21 +3,32 @@
 {% block content %}
 
 {% load static %}
-<link href="{% static 'css/cssInicio.css' %}" type="text/css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="{% static 'css/cssBajos.css' %}">
-<link rel="stylesheet" type="text/css" href="{% static 'css/cssCompra.css' %}">
-<link href="{% static 'css/cssFormulario.css' %}" type="text/css" rel="stylesheet"> 
-<link rel="stylesheet" type="text/css" href="{% static 'css/cssGuitarras.css' %}">
-<link href="{% static 'css/cssRegistrar.css' %}" type="text/css" rel="stylesheet"> 
-<link href="{% static 'css/cssIngresar.css' %}" type="text/css" rel="stylesheet"> 
-<link rel="stylesheet" type="text/css" href="{% static 'css/cssPrecios.css' %}">
-<div class="insdelete">
-<h1>Eliminar Instrumento</h1>
+<br>
+<br>
+<br>
+<br>
+<div align=center style="font-weight: 600; font-size: 30px;"> 
+<h1 style="font-size: 40px;">Eliminar Sugerencia</h1>
 <p>¿Estas seguro de querer eliminar esta sugerencia {{Instrumento.nombre}}?</p>
-
 <form action="" method="POST">
     {% csrf_token %}
-    <input type="submit" action="" value="Si, quiero eliminarlo">
+    <button type="submit" class="save btn btn-primary btn-xl" style="font-size: 30px;">Borrar Sugerencia</button>
 </form>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 {% endblock %}

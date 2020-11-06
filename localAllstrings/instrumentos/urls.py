@@ -11,7 +11,9 @@ urlpatterns = [
     path('Bajos',views.Bajos,name='Bajos'),
     path('Formulario',views.Formulario,name='Formulario'),
     path('instrumento/<str:pk>', views.InstrumentoDetailView.as_view(), name='instrumento-detail'),
-    path('instruementos/', views.InstrumentoListView.as_view(),name='instrumentos'),
+    path('instrumentos/', views.InstrumentoListView.as_view(),name='instrumentos'),
+
+
 ]
 
 urlpatterns += [

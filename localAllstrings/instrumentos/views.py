@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .models import Instrumento
 
+
 # Create your views here.
 def index(request):
     num_instrumentos = Instrumento.objects.all().count()
@@ -72,7 +73,9 @@ def Formulario(request):
         request,
         'Formulario.html',
         context={'num_instrumentos': num_instrumentos},
-    )                          
+    )   
+                  
+
 
 # CRUD.
 from django.views.generic.edit import CreateView, UpdateView, DeleteView

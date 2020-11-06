@@ -2,16 +2,12 @@
 
 {% block content %}
 
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
   
   {% load static %}
-  <link href="{% static 'css/cssRegistrar.css' %}" type="text/css" rel="stylesheet"> 
-</head>
-<body>
+
  <!--ESTILOS-->
  <style>
 
@@ -51,10 +47,21 @@
     margin: 0px;
     }
 
-
-    .caja3 a{
-    color: white;
+    .cajaRegister{
+        background-color:  #004d70;
+        position: absolute;
+        margin-left:20%;
+        padding: 20px;
+        margin-top: 55px;
     }
+
+    @media screen and (max-width: 768px){
+        .cajaRegister{
+            margin-left: 5%;
+        }
+        
+    }
+
   </style>
   <!--VALIDACIÓN-->
   <script>
@@ -96,9 +103,12 @@
         }); 
     }); 
   </script>
+  <br>
+  <br>
  <!--CAJA DE REGISTRO CLIENTE-->
- <div class="cajaRegister">
-    <form id="mi-formulario" action="index.html">
+ <div class="container">
+    <div class="cajaRegister">
+    <form id="mi-formulario" action="{% url 'index'%}">
 
         <label>Nombre: </label>
         <input type="text" name="name">
@@ -114,10 +124,17 @@
       
         <button class="btn btn-success" >Registrar</button>
       </form>
-    </div>
-    <br>
-    <br>
-    <br>
-</body>
-</html> 
+</div>
+</div>
+<br>
+<br>
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+
+
 {% endblock %}
