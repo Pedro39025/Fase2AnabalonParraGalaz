@@ -11,7 +11,7 @@
     {% for instrumento in instrumento_list %}
     <li>
         <a style="font-size: 25px ;"  href="{{ instrumento.get_absolute_url }}" > {{ instrumento.nombre}} </a>
-        <strong><a style="font-size: 20px;"> / Descripción Instrumentos: </a> </strong> <a style="font-size: 20px ; color: black;"> {{instrumento.descripcion}}</a>
+        <strong><a style="font-size: 20px;"> / Descripción : </a> </strong> <a style="font-size: 20px ; color: black;"> {{instrumento.descripcion}}</a>
     </li>
     {% endfor %}
 
